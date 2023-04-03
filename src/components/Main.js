@@ -46,7 +46,7 @@ export default function Main() {
                 <Grid container item direction='column' xs={12} pt='100px'>
                     <Stack spacing={3} alignItems='center'>
                         <img src={logo} width='64px' />
-                        <Typography variant='h2'>KALLABORATIVE DESIGNS</Typography>
+                        <Typography variant='h2'>KALLABORATIVE DESIGN CO</Typography>
                     </Stack>
                 </Grid>
                 <Grid container item direction='column' xs={11} md={8} alignItems='center' rowGap={3} position='relative'>
