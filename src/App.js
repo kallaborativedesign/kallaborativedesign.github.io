@@ -3,13 +3,19 @@ import './App.css';
 import Main from './components/Main';
 import { unstable_createMuiStrictModeTheme } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
+import MainV2 from './components/MainV2';
 
 const theme = unstable_createMuiStrictModeTheme({
   typography: {
+    button: {
+      textTransform: 'inherit',
+      fontWeight: 600
+    },
     h1: {
       fontWeight: 700,
       fontSize: ['24px', '!important'],
-      fontFamily: ['Montserrat', '!important']
+      fontFamily: ['Montserrat', '!important'],
+      lineHeight:'37px',
     },
     h2: {
       fontWeight: 600,
@@ -23,18 +29,21 @@ const theme = unstable_createMuiStrictModeTheme({
       fontFamily: ['Montserrat', '!important'],
     },
     h4: {
-      fontWeight: 400,
+      fontWeight: 700,
       fontSize: ["24px", '!important'],
-      // letterSpacing: '.1em',
-      // textTransform: 'uppercase'
-    },
-    cardName: {
-      fontWeight: 400,
-      fontSize: ["20px", '!important'],
+      fontFamily: ['Montserrat', '!important'],
+
       // letterSpacing: '.1em',
       // textTransform: 'uppercase'
     },
     h5: {
+      fontWeight: 600,
+      fontSize: ["20px", '!important'],
+      fontFamily: ['Montserrat', '!important'],
+      // letterSpacing: '.1em',
+      // textTransform: 'uppercase'
+    },
+    h6: {
       fontWeight: 500,
       fontSize: ["18px", '!important'],
       // letterSpacing: '.1em',
@@ -65,7 +74,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <div className="App">
-      <Main />
+      <MainV2 />
     </div>
     </ThemeProvider>
   );
