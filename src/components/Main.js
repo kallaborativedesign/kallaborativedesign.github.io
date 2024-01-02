@@ -35,8 +35,8 @@ const icons = [
 ]
 
 const team = [
-    { name: 'Kaycee Xiao', image: kaycee, bio: 'Product designer with 6+ years of experience in UI/UX and Interactive design and a track record of creating user centered experiences that produce results.', link: 'https://www.kayceexiao.com' },
-    { name: 'Andrew Gay', image: andrew, bio: 'Software Engineer with a passion for learning and building innovative solutions and 8+ years of experience in product development.', link: 'https://www.andrewmichaelgay.com' }
+    { name: 'Kaycee Xiao', image: kaycee, bio: 'Product designer with an extensive background in UI/UX and interactive design, and a track record of creating user centered experiences that produce results.', link: 'https://www.kayceexiao.com' },
+    { name: 'Andrew Gay', image: andrew, bio: 'Software Engineer with a passion for learning and building innovative solutions and over a decade of experience in product development.', link: 'https://www.andrewmichaelgay.com' }
 ]
 
 export default function Main() {

@@ -1,9 +1,8 @@
 import styled from "@emotion/styled";
-import { AppBar, Button, Card, Grid, IconButton, Input, Menu, MenuList, SvgIcon, TextField, Toolbar, Typography } from "@mui/material";
+import { AppBar, Button, Grid, IconButton, TextField, Toolbar, Typography } from "@mui/material";
 import { grey } from "@mui/material/colors";
-import { Box, Container, Stack } from "@mui/system";
+import { Box, Stack } from "@mui/system";
 import React, { useState } from "react";
-import logo from '../KAD/Logo/logo.svg'
 import combo from '../KAD/misc/combo.png'
 import research from '../KAD/Icons/research.png'
 import strategy from '../KAD/Icons/strategy.png'
@@ -12,7 +11,7 @@ import interaction from '../KAD/Icons/interaction.png'
 import development from '../KAD/Icons/development.png'
 import kaycee from '../KAD/Photos/Kaycee.jpeg'
 import andrew from '../KAD/Photos/Andrew.jpg'
-import { ArrowForward, ArrowRight, GitHub, LinkedIn, Mail, MenuOpen, MenuOutlined } from "@mui/icons-material";
+import { ArrowForward, LinkedIn, Mail, MenuOutlined } from "@mui/icons-material";
 import fidelity from '../KAD/Companies/Fidelity.png'
 import hlab from '../KAD/Companies/Hlab.png'
 import hme from '../KAD/Companies/HME.png'
@@ -66,8 +65,8 @@ const icons = [
 ]
 
 const team = [
-    { name: 'Kaycee Xiao', image: kaycee, bio: 'Product designer with 6+ years of experience in UI/UX and Interactive design and a track record of creating user centered experiences that produce results.', link: 'https://www.kayceexiao.com' },
-    { name: 'Andrew Gay', image: andrew, bio: 'Software Engineer with a passion for learning and building innovative solutions and 8+ years of experience in product development.', link: 'https://www.andrewmichaelgay.com' }
+    { name: 'Kaycee Xiao', image: kaycee, bio: 'Product designer with an extensive background in UI/UX and interactive design, and a track record of creating user-centered experiences that produce results.', link: 'https://www.kayceexiao.com' },
+    { name: 'Andrew Gay', image: andrew, bio: 'Software Engineer with a passion for learning and building innovative solutions and over a decade of experience in product development.', link: 'https://www.andrewmichaelgay.com' }
 ]
 
 export default function MainV2() {
