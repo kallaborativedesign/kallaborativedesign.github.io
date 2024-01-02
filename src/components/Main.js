@@ -112,9 +112,12 @@ export default function Main() {
                     </Grid>
                 </Grid>
                 <Grid container item height='40px' justifyContent='center' alignItems='center' bgcolor='rgba(63, 63, 63, 1)' width='100vw'>
-                    <Typography variant='body2' color='white'>Copyright &copy; 2023 Kallaborative Design. All Rights Reserved.</Typography>
+                    <Typography variant='body2' color='white'>Copyright © 2023 KAllaborative Design. All Rights Reserved</Typography>
                 </Grid>
             </Grid>
+
+
+
         </Grid>
     )
 }
